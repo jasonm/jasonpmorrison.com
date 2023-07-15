@@ -33,6 +33,35 @@ export default function Consulting() {
                 make informed decisions and move faster to incorporate AI into
                 your product engineering.
               </div>
+              <div className="space-y-7">
+                <Link
+                  href="https://www.latent.space/p/ai-engineer"
+                  className="font-medium text-teal-500 dark:text-teal-400"
+                >
+                  As Shawn Wang writes in &ldquo;The Rise of the AI
+                  Engineer&rdquo;
+                </Link>
+                , this is a rapidly growing and complex space:
+                <div className="space-y-4 border-l-4 pl-4">
+                  <div>
+                    We are observing a once in a generation “shift right” of
+                    applied AI, fueled by the emergent capabilities and open
+                    source/API availability of Foundation Models.
+                  </div>
+
+                  <div>
+                    A wide range of AI tasks that used to take 5 years and a
+                    research team to accomplish in 2013, now just require API
+                    docs and a spare afternoon in 2023.
+                  </div>
+
+                  <div>
+                    However, the devil is in the details - there are no end of
+                    challenges in successfully evaluating, applying and
+                    productizing AI.
+                  </div>
+                </div>
+              </div>
               <div>
                 Recent areas I have worked in include:
                 <ul className="list-inside list-disc">
@@ -52,64 +81,6 @@ export default function Consulting() {
                 <Button href="mailto:jason.p.morrison@gmail.com" variant="teal">
                   Email me at jason.p.morrison@gmail.com
                 </Button>{' '}
-              </div>
-              <h2 className="pt-7 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
-                AI Engineering
-              </h2>
-              <div className="space-y-7">
-                <Link
-                  href="https://www.latent.space/p/ai-engineer"
-                  className="font-medium text-teal-500 dark:text-teal-400"
-                >
-                  From &ldquo;The Rise of the AI Engineer&rdquo;
-                </Link>
-                , this is a rapidly growing and complex space:
-                <div className="space-y-4 border-l-4 pl-4">
-                  <div>
-                    We are observing a once in a generation “shift right” of
-                    applied AI, fueled by the emergent capabilities and open
-                    source/API availability of Foundation Models.
-                  </div>
-
-                  <div>
-                    A wide range of AI tasks that used to take 5 years and a
-                    research team to accomplish in 2013, now just require API
-                    docs and a spare afternoon in 2023.
-                  </div>
-
-                  <div>
-                    However, the devil is in the details - there are no end of
-                    challenges in successfully evaluating, applying and
-                    productizing AI:{' '}
-                  </div>
-                  <ul className="list-inside list-disc space-y-4">
-                    <li>
-                      <span className="font-bold">Models:</span> From evaluating
-                      the largest GPT-4 and Claude models, down to the smallest
-                      open source Huggingface, LLaMA, and other models
-                    </li>
-                    <li>
-                      <span className="font-bold">Tools:</span> From the most
-                      popular chaining, retrieval and vector search tools like
-                      LangChain, LlamaIndex, and Pinecone to the emerging field
-                      of autonomous agents like Auto-GPT and BabyAGI (
-                      <Link
-                        className="font-medium text-teal-500 dark:text-teal-400"
-                        href="https://lilianweng.github.io/posts/2023-06-23-agent/"
-                      >
-                        must-read recap from Lilian Weng here
-                      </Link>
-                      )
-                    </li>
-                    <li>
-                      <span className="font-bold">News:</span> On top of this,
-                      the sheer volume of papers and models and techniques
-                      published each day is exponentially increasing with
-                      interest and funding, so much so that keeping on top of it
-                      all is almost a full time job.
-                    </li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
