@@ -17,7 +17,7 @@ import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import { formatDate } from '@/lib/formatDate'
-import { generateRssFeed } from '@/lib/generateRssFeed'
+//import { generateRssFeed } from '@/lib/generateRssFeed'
 // import { getAllArticles } from '@/lib/getAllArticles'
 import portraitImage from '@/images/portrait.jpg'
 
@@ -103,7 +103,7 @@ function SocialLink({ icon: Icon, ...props }) {
   )
 }
 
-export default function Home({ articles }) {
+export default function Home() {
   return (
     <>
       <CommonHead />
@@ -111,7 +111,7 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="">
           <h1 className="text-4xl font-bold leading-normal tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl sm:leading-normal">
-            Hi, I'm Jason and I focus on{' '}
+            Hi, I&apos;m Jason and I focus on{' '}
             <span className="bg-teal-200 px-2 py-1 text-opacity-5 dark:bg-teal-500">
               AI engineering
             </span>
@@ -182,12 +182,12 @@ export default function Home({ articles }) {
 
 export async function getStaticProps() {
   if (process.env.NODE_ENV === 'production') {
-    await generateRssFeed()
+    //await generateRssFeed()
   }
 
   return {
     props: {
-      articles: [],
+      //articles: [],
       //(await getAllArticles())
       //  .slice(0, 4)
       //  .map(({ component, ...meta }) => meta),
@@ -212,7 +212,7 @@ function PointwiseHero() {
             <span className="bg-pink-200 px-2 py-1 text-opacity-5 dark:bg-pink-500">
               no AI engineers?
             </span>{' '}
-            Let's{' '}
+            Let&apos;s{' '}
             <span className="bg-blue-200 px-2 py-1 text-opacity-5 dark:bg-blue-500">
               explore and build it together
             </span>
@@ -226,12 +226,12 @@ function PointwiseHero() {
 
           <p className="mt-10 text-lg">
             From feasibility studies that assess the practicality of your idea,
-            to strategic planning that outlines the roadmap to success, we've
-            got you covered. Our team doesn't stop at consulting; we roll up our
-            sleeves and get involved in the actual engineering work, turning
-            your AI concept into a fully functional product. We're here to
-            support product leaders and founders every step of the way on their
-            AI journey."
+            to strategic planning that outlines the roadmap to success,
+            we&apos;ve got you covered. Our team doesn&apos;t stop at
+            consulting; we roll up our sleeves and get involved in the actual
+            engineering work, turning your AI concept into a fully functional
+            product. We&apos;re here to support product leaders and founders
+            every step of the way on their AI journey.
           </p>
 
           <div className="mt-10 flex items-center justify-center gap-x-6">

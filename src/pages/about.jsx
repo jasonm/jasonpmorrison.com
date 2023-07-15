@@ -83,7 +83,7 @@ export default function About() {
                 </Link>{' '}
                 – the best environment to develop education technology you could
                 imagine. As an engineer I worked with top learning scientists to
-                build a software platform for the world's most innovative
+                build a software platform for the world&apos;s most innovative
                 university, including the fully-active-learning real-time video
                 classroom for{' '}
                 <Link

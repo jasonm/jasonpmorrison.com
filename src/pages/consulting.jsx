@@ -28,8 +28,8 @@ export default function Consulting() {
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <div>
                 Questions about building products with modern AI technology like
-                GPT-4 and other large language models (LLMs)? I'm excited to
-                meet founders, product leaders, and technologists to help you
+                GPT-4 and other large language models (LLMs)? I&apos;m excited
+                to meet founders, product leaders, and technologists to help you
                 make informed decisions and move faster to incorporate AI into
                 your product engineering.
               </div>
@@ -45,8 +45,8 @@ export default function Consulting() {
                 </ul>
               </div>
               <div>
-                I am happy to answer questions or offer advice. You can't waste
-                my time!{' '}
+                I am happy to answer questions or offer advice. You can&apos;t
+                waste my time!{' '}
               </div>
               <div>
                 <Button href="mailto:jason.p.morrison@gmail.com" variant="teal">
