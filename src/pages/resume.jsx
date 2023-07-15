@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 
+import { Button } from '@/components/Button'
 import { CommonHead } from '@/components/CommonHead'
 import { Container } from '@/components/Container'
 import {
@@ -22,13 +23,23 @@ export default function Resume() {
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
               Résumé
             </h1>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-10">
+              Email me at{' '}
               <Link
-                href="https://www.linkedin.com/in/jasonmorrison/"
-                className="font-medium text-teal-500 dark:text-teal-400"
+                href="mailto:jason.p.morrison@gmail.com"
+                className="text-teal-600 hover:text-teal-700 dark:hover:text-teal-400"
               >
-                Download my resume (PDF).
-              </Link>
+                jason.p.morrison@gmail.com
+              </Link>{' '}
+              to request a more detailed résumé, or:
+            </div>
+            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+              <Button
+                href="https://www.linkedin.com/in/jasonpmorrison/"
+                variant="teal"
+              >
+                View my résumé on LinkedIn.
+              </Button>
             </div>
           </div>
         </div>
