@@ -140,20 +140,31 @@ export default function Home() {
             , where we build AI platforms for education and the future of work.
           </div>
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
-            Former engineering leader and wearing-every-hat product builder
-            (design sprints to database tuning) at{' '}
+            Previously I was an engineering leader and wearing-every-hat product
+            builder (design sprints to database tuning) at{' '}
             <Link
               href="https://minervaproject.com"
               className="font-medium text-teal-500 dark:text-teal-400"
             >
               Minerva Project
             </Link>
-            {' / '}
+            {' and '}
             <Link
               href="https://minerva.edu"
               className="font-medium text-teal-500 dark:text-teal-400"
             >
               Minerva University
+            </Link>
+            .
+          </div>
+          <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
+            Looking for advice or engineering regarding LLMs in products,
+            including edtech?{' '}
+            <Link
+              href="/consulting"
+              className="font-medium text-teal-500 dark:text-teal-400"
+            >
+              Read about consulting with me
             </Link>
             .
           </div>
