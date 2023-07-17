@@ -50,8 +50,8 @@ export default function Consulting() {
               </ul>
               <div>
                 Whether you are a founder, product leader, or engineering
-                leader, I'm excited to discuss how I can help you make decisions
-                and move faster to incorporate AI.
+                leader, I&apos;m excited to discuss how I can help you make
+                decisions and move faster to incorporate AI.
               </div>
               <div className="space-y-7">
                 As Shawn Wang writes in{' '}
