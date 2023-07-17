@@ -116,12 +116,6 @@ export default function Home() {
             <span className="bg-yellow-200 px-2 py-1 text-opacity-5 dark:bg-yellow-500">
               AI engineering
             </span>
-            {/*
-            ,{' '}
-            <span className="bg-yellow-200 px-2 py-1 text-opacity-5 dark:bg-yellow-500">
-              educational technology
-            </span>{' '}
-            */}
             and{' '}
             <span className="bg-pink-200 px-2 py-1 text-opacity-5 dark:bg-pink-500">
               engineering leadership

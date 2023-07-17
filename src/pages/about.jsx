@@ -59,7 +59,7 @@ export default function About() {
             <h1 className="mt-6 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
               {/*I build products and technology in AI, education, and the future
                  of work.*/}
-              I focus on AI engineering and engineering leadership
+              I focus on AI engineering and engineering leadership.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
