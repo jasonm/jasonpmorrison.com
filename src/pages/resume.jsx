@@ -25,7 +25,7 @@ export default function Resume() {
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <Button
                 href="/static/Jason-Morrison-Resume-2023-AI-Engineer.pdf"
-                variant="teal"
+                variant="indigo"
               >
                 View my resume (PDF)
               </Button>
@@ -33,7 +33,7 @@ export default function Resume() {
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <Button
                 href="https://www.linkedin.com/in/jasonpmorrison/"
-                variant="teal"
+                variant="indigo"
               >
                 View my professional experience on LinkedIn
               </Button>

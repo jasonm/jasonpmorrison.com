@@ -2,7 +2,8 @@ import Link from 'next/link'
 import clsx from 'clsx'
 
 const variantStyles = {
-  teal: 'bg-teal-500 font-semibold text-teal-50 hover:bg-teal-400 active:bg-teal-500 active:text-teal-50/70 dark:hover:bg-teal-300 dark:active:bg-teal-400 dark:active:text-teal-50/70',
+  indigo:
+    'bg-indigo-500 font-semibold text-indigo-50 hover:bg-indigo-600 active:bg-indigo-700 active:text-indigo-50/70',
   primary:
     'bg-zinc-800 font-semibold text-zinc-100 hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 dark:bg-zinc-700 dark:hover:bg-zinc-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70',
   secondary:

@@ -134,7 +134,7 @@ export default function Home() {
             partner at{' '}
             <Link
               href="https://pointwise.ai"
-              className="font-medium text-teal-500 dark:text-teal-400"
+              className="font-medium text-indigo-500 dark:text-indigo-400"
             >
               Pointwise AI
             </Link>{' '}
@@ -145,14 +145,14 @@ export default function Home() {
             product builder (design sprints to database tuning) at{' '}
             <Link
               href="https://minervaproject.com"
-              className="font-medium text-teal-500 dark:text-teal-400"
+              className="font-medium text-indigo-500 dark:text-indigo-400"
             >
               Minerva Project
             </Link>
             {' and '}
             <Link
               href="https://minerva.edu"
-              className="font-medium text-teal-500 dark:text-teal-400"
+              className="font-medium text-indigo-500 dark:text-indigo-400"
             >
               Minerva University
             </Link>
@@ -162,7 +162,7 @@ export default function Home() {
             As a consultant at{' '}
             <Link
               href="https://thoughtbot.com"
-              className="font-medium text-teal-500 dark:text-teal-400"
+              className="font-medium text-indigo-500 dark:text-indigo-400"
             >
               thoughtbot
             </Link>{' '}
@@ -173,7 +173,7 @@ export default function Home() {
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
             <Link
               href="/consulting"
-              className="font-medium text-teal-500 dark:text-teal-400"
+              className="font-medium text-indigo-500 dark:text-indigo-400"
             >
               Read about consulting with me
             </Link>{' '}

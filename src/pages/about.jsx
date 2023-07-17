@@ -16,9 +16,9 @@ function SocialLink({ className, href, children, icon: Icon }) {
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
-        className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+        className="group flex text-sm font-medium text-zinc-800 transition hover:text-indigo-500 dark:text-zinc-200 dark:hover:text-indigo-500"
       >
-        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
+        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-indigo-500" />
         <span className="ml-4">{children}</span>
       </Link>
     </li>
@@ -57,8 +57,9 @@ export default function About() {
               Hello, I’m Jason.
             </h1>
             <h1 className="mt-6 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I build products and technology in AI, education, and the future
-              of work.
+              {/*I build products and technology in AI, education, and the future
+                 of work.*/}
+              I focus on AI engineering and engineering leadership
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
@@ -70,41 +71,44 @@ export default function About() {
               <p>
                 In 2008 I joined thoughtbot, a boutique consulting firm where I
                 learned to balance technical excellence with the practical
-                realities of early-stage startups.
+                realities of early-stage startups. I developed and taught
+                training courses on Ruby and Rails, and I advised clients on
+                customer validation and hypothesis-driven product development.
               </p>
               <p>
                 In 2013, I moved to San Francisco and joined the{' '}
                 <Link
                   href="https://www.minervaproject.com"
-                  className="text-teal-500 dark:text-teal-400"
+                  className="text-indigo-500 dark:text-indigo-400"
                 >
                   Minerva Project
                 </Link>{' '}
-                where I built software and led teams working on our
-                fully-active-learning real-time video classroom for{' '}
+                where I built software and led teams building our real-time
+                multiplayer video classroom{' '}
                 <Link
-                  className="text-teal-500 dark:text-teal-400"
+                  className="text-indigo-500 dark:text-indigo-400"
                   href="https://www.minervaproject.com/our-approach/forum-learning-environment/"
                 >
                   Minerva Forum
-                </Link>
-                . I also built ML and NLP systems for admissions and university
+                </Link>{' '}
+                and related products like multiplayer coding environments. I
+                also built ML and NLP systems for admissions and university
                 operations, and built and ran an applied machine learning summer
                 internship for undergraduates.
               </p>
               <p>
-                In successive roles as a manager, director, and VP Engineering I
-                hired, managed, and grew engineers and EMs, organized and gelled
-                teams, directed engineering process, and represented engineering
-                to the executive team. In late 2022, I left to explore my own
-                product ideas.
+                In successive roles as a manager, director, and VP of
+                Engineering, I hired, managed, and grew engineers and EMs,
+                organized and gelled teams, directed engineering process, and
+                represented engineering to the executive team. In late 2022, I
+                left to explore my own product ideas.
               </p>
 
               <p>
                 Today, I’m a cofounder at{' '}
                 <Link
                   href="https://pointwise.ai"
-                  className="font-medium text-teal-500 dark:text-teal-400"
+                  className="font-medium text-indigo-500 dark:text-indigo-400"
                 >
                   Pointwise AI
                 </Link>

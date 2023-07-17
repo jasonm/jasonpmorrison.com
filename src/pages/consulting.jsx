@@ -57,7 +57,7 @@ export default function Consulting() {
                 As Shawn Wang writes in{' '}
                 <Link
                   href="https://www.latent.space/p/ai-engineer"
-                  className="font-medium text-teal-500 dark:text-teal-400"
+                  className="font-medium text-indigo-500 dark:text-indigo-400"
                 >
                   The Rise of the AI Engineer
                 </Link>
@@ -92,7 +92,10 @@ export default function Consulting() {
                 waste my time!{' '}
               </div>
               <div>
-                <Button href="mailto:jason.p.morrison@gmail.com" variant="teal">
+                <Button
+                  href="mailto:jason.p.morrison@gmail.com"
+                  variant="indigo"
+                >
                   Email me at jason.p.morrison@gmail.com
                 </Button>{' '}
               </div>

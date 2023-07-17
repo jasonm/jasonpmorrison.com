@@ -8,7 +8,7 @@ export function Definition({ className, children, definition, ...props }) {
 
   return (
     <div className={className} {...props}>
-      <span className="border-b-2 border-dotted border-teal-500">
+      <span className="border-b-2 border-dotted border-indigo-500">
         {children}
       </span>
       <span className="absolute bottom-full left-1/2 mb-2 w-72 -translate-x-1/2 transform rounded-md border border-gray-300 bg-white p-2 text-black opacity-0 transition-all duration-200 group-hover:opacity-100">
