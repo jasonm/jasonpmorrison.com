@@ -11,7 +11,6 @@ import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
-  TwitterIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
@@ -26,25 +25,43 @@ export default function Consulting() {
               Consulting
             </h1>
             <h1 className="text-2xl font-bold tracking-tight text-zinc-600 dark:text-zinc-400 sm:text-3xl">
-              Advice, strategy, and engineering for LLM-enabled products
+              Engineering and strategy for AI products
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <div>
-                Questions about building products with modern AI technology like
-                GPT-4 and other large language models (LLMs)? I&apos;m excited
-                to meet founders, product leaders, and technologists to help you
-                make informed decisions and move faster to incorporate AI into
-                your product engineering.
+                Do you have questions about building generative AI products with
+                technologies like these?
+              </div>
+              <ul className="ml-4 list-outside list-disc">
+                <li>
+                  LLMs like OpenAI&apos;s GPT-3.5/GPT-4 and Anthropic&apos;s
+                  Claude
+                </li>
+                <li>Workflow tools like LangChain and LlamaIndex</li>
+                <li>Vector databases like Chroma and Pinecone</li>
+                <li>
+                  Prompt engineering techniques like chain-of-thought and
+                  retrieval augmented generation
+                </li>
+                <li>
+                  Other NLP/ML techniques like embeddings, clustering, and
+                  interpretable models
+                </li>
+              </ul>
+              <div>
+                Whether you are a founder, product leader, or engineering
+                leader, I'm excited to discuss how I can help you make decisions
+                and move faster to incorporate AI.
               </div>
               <div className="space-y-7">
+                As Shawn Wang writes in{' '}
                 <Link
                   href="https://www.latent.space/p/ai-engineer"
                   className="font-medium text-teal-500 dark:text-teal-400"
                 >
-                  As Shawn Wang writes in &ldquo;The Rise of the AI
-                  Engineer&rdquo;
+                  The Rise of the AI Engineer
                 </Link>
-                , this is a rapidly growing and complex space:
+                :
                 <div className="space-y-4 border-l-4 pl-4">
                   <div>
                     We are observing a once in a generation “shift right” of
@@ -57,17 +74,11 @@ export default function Consulting() {
                     research team to accomplish in 2013, now just require API
                     docs and a spare afternoon in 2023.
                   </div>
-
-                  <div>
-                    However, the devil is in the details - there are no end of
-                    challenges in successfully evaluating, applying and
-                    productizing AI.
-                  </div>
                 </div>
               </div>
               <div>
                 Recent areas I have worked in include:
-                <ul className="mt-6 list-inside list-disc">
+                <ul className="ml-4 mt-6 list-outside list-disc">
                   <li>Building AI products for learning in the flow of work</li>
                   <li>Developing AI strategy in higher education</li>
                   <li>

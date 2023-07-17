@@ -9,7 +9,6 @@ import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
-  TwitterIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
@@ -21,7 +20,7 @@ export default function Resume() {
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="text-zinc-800 dark:text-zinc-100 lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight  sm:text-5xl">
-              Résumé
+              Resume
             </h1>
             <div className="mt-10">
               Email me at{' '}
@@ -38,7 +37,7 @@ export default function Resume() {
                 href="https://www.linkedin.com/in/jasonpmorrison/"
                 variant="teal"
               >
-                View my résumé on LinkedIn.
+                View my resume on LinkedIn.
               </Button>
             </div>
           </div>

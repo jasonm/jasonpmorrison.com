@@ -6,7 +6,7 @@ import { CommonHead } from '@/components/CommonHead'
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import { GitHubIcon, LinkedInIcon, TwitterIcon } from '@/components/SocialIcons'
+import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
@@ -111,37 +111,38 @@ export default function Home() {
       <Container className="mt-9">
         <div className="">
           <h1 className="text-4xl font-bold leading-normal tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl sm:leading-normal">
-            Hi, I&apos;m Jason and I focus on{' '}
-            <span className="bg-teal-200 px-2 py-1 text-opacity-5 dark:bg-teal-500">
+            Hello, I&apos;m Jason.
+            <br />I focus on{' '}
+            <span className="bg-yellow-200 px-2 py-1 text-opacity-5 dark:bg-yellow-500">
               AI engineering
             </span>
+            {/*
             ,{' '}
             <span className="bg-yellow-200 px-2 py-1 text-opacity-5 dark:bg-yellow-500">
               educational technology
             </span>{' '}
+            */}
             and{' '}
-            <span className="bg-purple-200 px-2 py-1 text-opacity-5 dark:bg-purple-500">
+            <span className="bg-pink-200 px-2 py-1 text-opacity-5 dark:bg-pink-500">
               engineering leadership
             </span>
             .
           </h1>
           <div className="space-y-7"></div>
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
-            I am based in San Francisco, California.
-          </div>
-          <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
-            I am currently a founder and partner at{' '}
+            Based in San Francisco, California, I am currently a founder and
+            partner at{' '}
             <Link
               href="https://pointwise.ai"
               className="font-medium text-teal-500 dark:text-teal-400"
             >
               Pointwise AI
-            </Link>
-            , where we build AI platforms for education and the future of work.
+            </Link>{' '}
+            where we build AI platforms for education and the future of work.
           </div>
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
-            Previously I was an engineering leader and wearing-every-hat product
-            builder (design sprints to database tuning) at{' '}
+            Before that, I was an engineering leader and wearing-every-hat
+            product builder (design sprints to database tuning) at{' '}
             <Link
               href="https://minervaproject.com"
               className="font-medium text-teal-500 dark:text-teal-400"
@@ -158,22 +159,27 @@ export default function Home() {
             .
           </div>
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
-            Looking for advice or engineering regarding LLMs in products,
-            including edtech?{' '}
+            As a consultant at{' '}
+            <Link
+              href="https://thoughtbot.com"
+              className="font-medium text-teal-500 dark:text-teal-400"
+            >
+              thoughtbot
+            </Link>{' '}
+            I validated product ideas, built prototypes, shipped new products,
+            augmented engineering teams, and developed and ran engineering
+            training sessions.
+          </div>
+          <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
             <Link
               href="/consulting"
               className="font-medium text-teal-500 dark:text-teal-400"
             >
               Read about consulting with me
-            </Link>
-            .
+            </Link>{' '}
+            on advice or engineering with AI, LLMs, or NLP.
           </div>
           <div className="mt-12 flex gap-6">
-            <SocialLink
-              href="https://twitter.com/jayunit"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            />
             <SocialLink
               href="https://github.com/jasonm"
               aria-label="Follow on GitHub"

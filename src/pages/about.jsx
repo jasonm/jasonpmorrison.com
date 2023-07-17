@@ -8,7 +8,6 @@ import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
-  TwitterIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
@@ -63,7 +62,7 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I taught myself to code in the late 80s on our family’s
+                In the late 80s, I taught myself to code on our family’s
                 Commodore 64 and have loved building software ever since. A
                 first-generation college graduate, I earned my degree in
                 Computer Science in 2007 from RIT in Rochester, New York.
@@ -81,27 +80,24 @@ export default function About() {
                 >
                   Minerva Project
                 </Link>{' '}
-                – the best environment to develop education technology you could
-                imagine. As an engineer I worked with top learning scientists to
-                build a software platform for the world&apos;s most innovative
-                university, including the fully-active-learning real-time video
-                classroom for{' '}
+                where I built software and led teams working on our
+                fully-active-learning real-time video classroom for{' '}
                 <Link
                   className="text-teal-500 dark:text-teal-400"
                   href="https://www.minervaproject.com/our-approach/forum-learning-environment/"
                 >
                   Minerva Forum
                 </Link>
-                . I also built ML and NLP systems for admissions and student
-                support, and built and ran an applied machine learning summer
+                . I also built ML and NLP systems for admissions and university
+                operations, and built and ran an applied machine learning summer
                 internship for undergraduates.
               </p>
               <p>
                 In successive roles as a manager, director, and VP Engineering I
                 hired, managed, and grew engineers and EMs, organized and gelled
-                teams, directed engineering process and represented engineering
-                to the executive team. In late 2022, I left Minerva to explore
-                my own product ideas.
+                teams, directed engineering process, and represented engineering
+                to the executive team. In late 2022, I left to explore my own
+                product ideas.
               </p>
 
               <p>
@@ -112,9 +108,11 @@ export default function About() {
                 >
                   Pointwise AI
                 </Link>
-                . We build AI tools for education and the future of work, like
-                natural language interaction platforms for realistic training
-                and coaching, and sophisticated LLM-based authoring pipelines to
+                . We consult on AI engineering to build new features and
+                products, to automate business processes, and develop new
+                capabilities. We&apos;ve worked on projects like natural
+                language interaction platforms for realistic training and
+                coaching, and sophisticated LLM-based authoring pipelines to
                 scale content authoring while meeting rigorous academic quality
                 standards.
               </p>
@@ -122,9 +120,6 @@ export default function About() {
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="https://twitter.com/jayunit" icon={TwitterIcon}>
-                Follow on Twitter
-              </SocialLink>
               <SocialLink
                 href="https://github.com/jasonm"
                 icon={GitHubIcon}
