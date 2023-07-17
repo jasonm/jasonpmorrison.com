@@ -22,22 +22,20 @@ export default function Resume() {
             <h1 className="text-4xl font-bold tracking-tight  sm:text-5xl">
               Resume
             </h1>
-            <div className="mt-10">
-              Email me at{' '}
-              <Link
-                href="mailto:jason.p.morrison@gmail.com"
-                className="text-teal-600 hover:text-teal-700 dark:hover:text-teal-400"
+            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+              <Button
+                href="/static/Jason-Morrison-Resume-2023-AI-Engineer.pdf"
+                variant="teal"
               >
-                jason.p.morrison@gmail.com
-              </Link>{' '}
-              to request a more detailed résumé, or:
+                View my resume (PDF)
+              </Button>
             </div>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <Button
                 href="https://www.linkedin.com/in/jasonpmorrison/"
                 variant="teal"
               >
-                View my resume on LinkedIn.
+                View my professional experience on LinkedIn
               </Button>
             </div>
           </div>
