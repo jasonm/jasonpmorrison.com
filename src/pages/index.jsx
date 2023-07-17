@@ -177,7 +177,7 @@ export default function Home() {
             >
               Read about consulting with me
             </Link>{' '}
-            on advice or engineering with AI, LLMs, or NLP.
+            for advice and engineering with AI, LLMs, or NLP.
           </div>
           <div className="mt-12 flex gap-6">
             <SocialLink
