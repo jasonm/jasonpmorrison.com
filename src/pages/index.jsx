@@ -153,7 +153,7 @@ export default function Home() {
             .
           </div>
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
-            As a consultant at{' '}
+            Before that, as a consultant at{' '}
             <Link
               href="https://thoughtbot.com"
               className="font-medium text-indigo-500 dark:text-indigo-400"
