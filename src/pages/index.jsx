@@ -124,7 +124,7 @@ export default function Home() {
               Pointwise AI
             </Link>{' '}
             where we advise founders and build AI products across industries
-            include education, future of work, events management, and
+            including education, future of work, events management, and
             healthcare.
           </div>
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
