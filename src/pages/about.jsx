@@ -113,9 +113,8 @@ export default function About() {
                 >
                   Pointwise AI
                 </Link>
-                . We consult on AI engineering to build new features and
-                products, to automate business processes, and develop new
-                capabilities. We&apos;ve worked on projects like natural
+                . We consult on AI engineering for founders, product teams, and
+                engineering leaders. We&apos;ve worked on projects like natural
                 language interaction platforms for realistic training and
                 coaching, and sophisticated LLM-based authoring pipelines to
                 scale content authoring while meeting rigorous academic quality
