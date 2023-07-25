@@ -74,6 +74,7 @@ export default function About() {
                 realities of early-stage startups. I developed and taught
                 training courses on Ruby and Rails, and I advised clients on
                 customer validation and hypothesis-driven product development.
+                And I wrote a lot of code.
               </p>
               <p>
                 In 2013, I moved to San Francisco and joined the{' '}
