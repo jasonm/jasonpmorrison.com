@@ -53,34 +53,13 @@ export default function Consulting() {
                 leader, I&apos;m excited to discuss how I can help you make
                 decisions and move faster to incorporate AI.
               </div>
-              <div className="space-y-7">
-                As Shawn Wang writes in{' '}
-                <Link
-                  href="https://www.latent.space/p/ai-engineer"
-                  className="font-medium text-indigo-500 dark:text-indigo-400"
-                >
-                  The Rise of the AI Engineer
-                </Link>
-                :
-                <div className="space-y-4 border-l-4 pl-4">
-                  <div>
-                    We are observing a once in a generation “shift right” of
-                    applied AI, fueled by the emergent capabilities and open
-                    source/API availability of Foundation Models.
-                  </div>
-
-                  <div>
-                    A wide range of AI tasks that used to take 5 years and a
-                    research team to accomplish in 2013, now just require API
-                    docs and a spare afternoon in 2023.
-                  </div>
-                </div>
-              </div>
               <div>
                 Recent areas I have worked in include:
                 <ul className="ml-4 mt-6 list-outside list-disc">
                   <li>Building AI products for learning in the flow of work</li>
-                  <li>Developing AI strategy in higher education</li>
+                  <li>
+                    Developing LLM-based products for K-12 students and teachers
+                  </li>
                   <li>
                     Interactive LLM-based scenario simulations with speech
                   </li>
@@ -101,11 +80,9 @@ export default function Consulting() {
               </div>
             </div>
           </div>
-          {/*
           <div className="lg:pl-20">
             <Calendly />
           </div>
-          */}
           <div className="lg:pl-20">
             <div className="max-w-xs px-2.5 lg:max-w-none">
               <Image
