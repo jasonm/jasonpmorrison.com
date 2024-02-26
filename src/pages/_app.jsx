@@ -29,7 +29,9 @@ export default function App({ Component, pageProps, router }) {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
-          gtag('config', 'G-EH77RR1RDT');
+          gtag('config', 'G-EH77RR1RDT', {
+            client_storage: 'none'
+          });
         `}
       </Script>
 
