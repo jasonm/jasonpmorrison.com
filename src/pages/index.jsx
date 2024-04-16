@@ -6,7 +6,7 @@ import { CommonHead } from '@/components/CommonHead'
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
+import { GitHubIcon, TwitterIcon, LinkedInIcon } from '@/components/SocialIcons'
 import { formatDate } from '@/lib/formatDate'
 //import { generateRssFeed } from '@/lib/generateRssFeed'
 // import { getAllArticles } from '@/lib/getAllArticles'
@@ -115,15 +115,35 @@ export default function Home() {
           </h1>
           <div className="space-y-7"></div>
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
-            Based in San Francisco, California, I am currently a founder and
-            partner at{' '}
+            Based in San Francisco, California, I am currently building{' '}
+            <Link
+              href="https://flowplay.ai"
+              className="font-medium text-indigo-500 dark:text-indigo-400"
+            >
+              Flowplay AI
+            </Link>{' '}
+            , a development platform for teams building products on top of LLMs.
+            We make it easier to build complex multi-step agents and workflows,
+            with a no-code editor and developer SDK that fit together so
+            engineers and subject-matter experts can work together.
+          </div>
+
+          <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
+            In 2023,{' '}
+            <Link
+              href="https://www.linkedin.com/in/thecriticalpath/"
+              className="font-medium text-indigo-500 dark:text-indigo-400"
+            >
+              Brian Fields
+            </Link>{' '}
+            and I consulted as{' '}
             <Link
               href="https://pointwise.ai"
               className="font-medium text-indigo-500 dark:text-indigo-400"
             >
               Pointwise AI
-            </Link>{' '}
-            where we advise founders and build AI products across industries
+            </Link>
+            . We advised founders and built AI products across industries
             including education, future of work, events management, and
             healthcare.
           </div>
@@ -145,6 +165,7 @@ export default function Home() {
             </Link>
             .
           </div>
+          {/*
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
             Before that, as a consultant at{' '}
             <Link
@@ -157,6 +178,8 @@ export default function Home() {
             augmented engineering teams, and developed and ran engineering
             training sessions.
           </div>
+            */}
+          {/*
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
             <Link
               href="/consulting"
@@ -166,11 +189,17 @@ export default function Home() {
             </Link>{' '}
             for advice and engineering with AI, LLMs, or NLP.
           </div>
+            */}
           <div className="mt-12 flex gap-6">
             <SocialLink
               href="https://github.com/jasonm"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
+            />
+            <SocialLink
+              href="https://twitter.com/jayunit"
+              aria-label="Follow on Twitter"
+              icon={TwitterIcon}
             />
             <SocialLink
               href="https://www.linkedin.com/in/jasonpmorrison/"

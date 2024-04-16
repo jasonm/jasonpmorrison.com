@@ -4,11 +4,7 @@ import clsx from 'clsx'
 
 import { CommonHead } from '@/components/CommonHead'
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-} from '@/components/SocialIcons'
+import { GitHubIcon, TwitterIcon, LinkedInIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
@@ -108,17 +104,16 @@ export default function About() {
               <p>
                 Today, I’m a cofounder at{' '}
                 <Link
-                  href="https://pointwise.ai"
+                  href="https://flowplay.ai"
                   className="font-medium text-indigo-500 dark:text-indigo-400"
                 >
-                  Pointwise AI
+                  Flowplay AI
                 </Link>
-                . We consult on AI engineering for founders, product teams, and
-                engineering leaders. We&apos;ve worked on projects like natural
-                language interaction platforms for realistic training and
-                coaching, and sophisticated LLM-based authoring pipelines to
-                scale content authoring while meeting rigorous academic quality
-                standards.
+                , a development platform for teams building products on top of
+                LLMs. We make it easier to build complex multi-step agents and
+                workflows, with a no-code editor and developer SDK that fit
+                together so engineers and subject-matter experts can work
+                together.
               </p>
             </div>
           </div>
@@ -130,6 +125,13 @@ export default function About() {
                 className="mt-4"
               >
                 Follow on GitHub
+              </SocialLink>
+              <SocialLink
+                href="https://twitter.com/jayunit"
+                icon={TwitterIcon}
+                className="mt-4"
+              >
+                Follow on Twitter
               </SocialLink>
               <SocialLink
                 href="https://www.linkedin.com/in/jasonpmorrison/"
