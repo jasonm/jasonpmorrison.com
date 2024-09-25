@@ -122,10 +122,7 @@ export default function Home() {
             >
               Flowplay AI
             </Link>{' '}
-            , a development platform for teams building products on top of LLMs.
-            We make it easier to build complex multi-step agents and workflows,
-            with a no-code editor and developer SDK that fit together so
-            engineers and subject-matter experts can work together.
+            , an AI sales training platform.
           </div>
 
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
