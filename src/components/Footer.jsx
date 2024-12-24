@@ -24,7 +24,7 @@ export function Footer() {
                 <NavLink href="/">Home</NavLink>
                 <NavLink href="/about">About</NavLink>
                 <NavLink href="/resume">Resume</NavLink>
-                <NavLink href="/consulting">Consulting</NavLink>
+                {/*<NavLink href="/consulting">Consulting</NavLink>*/}
                 <NavLink href="mailto:jason.p.morrison@gmail.com">
                   Email
                 </NavLink>
