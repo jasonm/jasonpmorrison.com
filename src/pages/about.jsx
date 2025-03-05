@@ -109,7 +109,7 @@ export default function About() {
                 >
                   Flowplay AI
                 </Link>
-                , an AI sales training platform.
+                , an AI education platform.
               </p>
             </div>
           </div>

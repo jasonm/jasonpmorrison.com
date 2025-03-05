@@ -122,7 +122,7 @@ export default function Home() {
             >
               Flowplay AI
             </Link>{' '}
-            , an AI sales training platform.
+            , an AI education platform.
           </div>
 
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
