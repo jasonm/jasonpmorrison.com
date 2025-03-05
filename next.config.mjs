@@ -10,6 +10,8 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
+  basePath: '',
+  'images.unoptimized': true,
 }
 
 const withMDX = nextMDX({
