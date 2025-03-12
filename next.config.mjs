@@ -11,7 +11,9 @@ const nextConfig = {
     scrollRestoration: true,
   },
   basePath: '',
-  'images.unoptimized': true,
+  images: {
+    unoptimized: true,
+  },
 }
 
 const withMDX = nextMDX({
