@@ -117,12 +117,13 @@ export default function Home() {
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
             Based in San Francisco, California, I am currently building{' '}
             <Link
-              href="https://flowplay.ai"
+              href="https://dittto.ai"
               className="font-medium text-indigo-500 dark:text-indigo-400"
             >
-              Flowplay AI
+              Dittto
             </Link>{' '}
-            , an AI education platform.
+            to enable anyone to build and run sophisticated marketing campaigns
+            for their product or business &mdash; without a big marketing team.
           </div>
 
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
