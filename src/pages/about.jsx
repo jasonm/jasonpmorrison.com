@@ -98,18 +98,19 @@ export default function About() {
                 Engineering, I hired, managed, and grew engineers and EMs,
                 organized and gelled teams, directed engineering process, and
                 represented engineering to the executive team. In late 2022, I
-                left to explore my own product ideas.
+                left to explore my own product ideas including dev tools and AI
+                x edtech.
               </p>
 
               <p>
                 Today, I’m a cofounder at{' '}
                 <Link
-                  href="https://flowplay.ai"
+                  href="https://dittto.ai"
                   className="font-medium text-indigo-500 dark:text-indigo-400"
                 >
-                  Flowplay AI
+                  Dittto AI
                 </Link>
-                , an AI education platform.
+                , an AI GTM platform.
               </p>
             </div>
           </div>
