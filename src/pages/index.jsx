@@ -127,27 +127,12 @@ export default function Home() {
           </div>
 
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
-            In 2023,{' '}
-            <Link
-              href="https://www.linkedin.com/in/thecriticalpath/"
-              className="font-medium text-indigo-500 dark:text-indigo-400"
-            >
-              Brian Fields
-            </Link>{' '}
-            and I consulted as{' '}
-            <Link
-              href="https://pointwise.ai"
-              className="font-medium text-indigo-500 dark:text-indigo-400"
-            >
-              Pointwise AI
-            </Link>
-            . We advised founders and built AI products across industries
-            including education, future of work, events management, and
-            healthcare.
+            Previously I co-ran an AI engineering consultancy. We advised
+            founders and built LLM-based products across education, future of
+            work, events management, and healthcare.
           </div>
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
-            Before that, I was an engineering leader and wearing-every-hat
-            product builder (design sprints to database tuning) at{' '}
+            Before that, I was an engineering leader at{' '}
             <Link
               href="https://minervaproject.com"
               className="font-medium text-indigo-500 dark:text-indigo-400"
@@ -161,7 +146,8 @@ export default function Home() {
             >
               Minerva University
             </Link>
-            .
+            , where we build a brand new fully-accredited liberal arts
+            university. .
           </div>
           {/*
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
