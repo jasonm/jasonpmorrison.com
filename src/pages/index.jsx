@@ -127,9 +127,9 @@ export default function Home() {
           </div>
 
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
-            Previously I co-ran an AI engineering consultancy. We advised
-            founders and built LLM-based products across education, future of
-            work, events management, and healthcare.
+            Previously I co-ran Pointwise, an AI engineering consultancy. We
+            advised founders and built LLM-based products across education,
+            future of work, events management, and healthcare.
           </div>
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
             Before that, I was an engineering leader at{' '}
@@ -147,7 +147,7 @@ export default function Home() {
               Minerva University
             </Link>
             , where we build a brand new fully-accredited liberal arts
-            university. .
+            university.
           </div>
           {/*
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
