@@ -115,24 +115,29 @@ export default function Home() {
           </h1>
           <div className="space-y-7"></div>
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
-            Based in San Francisco, California, I am currently building{' '}
-            <Link
-              href="https://dittto.ai"
-              className="font-medium text-indigo-500 dark:text-indigo-400"
-            >
-              Dittto
-            </Link>{' '}
-            to enable anyone to build and run sophisticated marketing campaigns
-            for their product or business &mdash; without a big marketing team.
+            Based in San Francisco, I am a seasoned engineer and leader focused
+            on building production-grade applied AI/LLM systems.
           </div>
 
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
-            Previously I co-ran Pointwise, an AI engineering consultancy. We
-            advised founders and built LLM-based products across education,
-            future of work, events management, and healthcare.
+            Over the past few years I have worked across{' '}
+            <Link href="https://flowplay.ai">edtech</Link>,{' '}
+            <Link href="https://flowplay-ai-agent-studio.framer.website/">
+              AI developer tooling
+            </Link>
+            , and
+            <Link href="https://www.sellable.dev/">marketing</Link>. I was
+            cofounder and CTO at Flowplay where we raised a preseed round from
+            South Park Commons.
+          </div>
+
+          <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
+            I also consulted for an early-stage edtech startup, applying LLMs to
+            build tutors and curriculum development copilots, all underpinned by
+            the science of learning.
           </div>
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
-            Before that, I was an engineering leader at{' '}
+            From 2013 to 2022, I was an engineer and engineering leader at{' '}
             <Link
               href="https://minervaproject.com"
               className="font-medium text-indigo-500 dark:text-indigo-400"
@@ -146,8 +151,15 @@ export default function Home() {
             >
               Minerva University
             </Link>
-            , where we build a brand new fully-accredited liberal arts
-            university.
+            , where we built a brand new fully-accredited liberal arts
+            university with global campuses, recognized as the{' '}
+            <Link
+              href="https://www.prnewswire.com/news-releases/minerva-university-named-worlds-most-innovative-university-for-fourth-consecutive-year-302504736.html"
+              className="font-medium text-indigo-500 dark:text-indigo-400"
+            >
+              #1 most innovative in the world for the last four years
+            </Link>
+            .
           </div>
           {/*
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">

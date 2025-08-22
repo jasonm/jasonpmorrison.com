@@ -75,6 +75,7 @@ export default function About() {
               <p>
                 In 2013, I moved to San Francisco and joined the{' '}
                 <Link
+                  target="_blank"
                   href="https://www.minervaproject.com"
                   className="text-indigo-500 dark:text-indigo-400"
                 >
@@ -83,8 +84,9 @@ export default function About() {
                 where I built software and led teams building our real-time
                 multiplayer video classroom{' '}
                 <Link
+                  _target="_blank"
                   className="text-indigo-500 dark:text-indigo-400"
-                  href="https://www.minervaproject.com/our-approach/forum-learning-environment/"
+                  href="https://www.minervaproject.com/platform"
                 >
                   Minerva Forum
                 </Link>{' '}
@@ -98,19 +100,60 @@ export default function About() {
                 Engineering, I hired, managed, and grew engineers and EMs,
                 organized and gelled teams, directed engineering process, and
                 represented engineering to the executive team. In late 2022, I
-                left to explore my own product ideas including dev tools and AI
-                x edtech.
+                left to explore my own product ideas, focusing on applied AI.
               </p>
-
               <p>
-                Today, I’m a cofounder at{' '}
+                In 2023, I consulted for an early-stage edtech startup, applying
+                LLMs to build tutors and curriculum development copilots, all
+                underpinned by the science of learning.
+              </p>
+              <p>
+                In 2024 and 2025, I built a series of products with my cofounder
+                Brian Fields, exploring across verticals:
+              </p>
+              <ul className="ml-4 list-outside list-disc">
+                <li>
+                  Voice AI roleplay for managerial coaching and for sales
+                  training
+                </li>
+
+                <li>
+                  <Link
+                    href="https://www.youtube.com/watch?v=dSeH6mVdeXE"
+                    _target="_blank"
+                    className="text-indigo-500 dark:text-indigo-400"
+                  >
+                    Converting vidoes into LOs, rubrics, lessons, and voice
+                    tutors
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="https://www.youtube.com/watch?v=pOwrRezaiW0"
+                    _target="_blank"
+                    className="text-indigo-500 dark:text-indigo-400"
+                  >
+                    A no-code IDE for building LLM agents
+                  </Link>{' '}
+                  with stateful routing, structured memory, tool use, tracing,
+                  and debugging.
+                </li>
+              </ul>
+              <p>
+                We raised $400k from{' '}
                 <Link
-                  href="https://dittto.ai"
-                  className="font-medium text-indigo-500 dark:text-indigo-400"
+                  href="https://southparkcommons.com/"
+                  _target="_blank"
+                  className="text-indigo-500 dark:text-indigo-400"
                 >
-                  Dittto AI
-                </Link>
-                , an AI GTM platform.
+                  South Park Commons
+                </Link>{' '}
+                as part of their Founder Fellowship program.
+              </p>
+              <p>
+                In 2025, I joined Dittto AI as CTO to build AI agents to
+                automate the fulfillment of GTM services for agency clients,
+                including campaign design, research, and execution.
               </p>
             </div>
           </div>
