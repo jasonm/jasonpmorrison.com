@@ -121,14 +121,31 @@ export default function Home() {
 
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
             Over the past few years I have worked across{' '}
-            <Link href="https://flowplay.ai">edtech</Link>,{' '}
-            <Link href="https://flowplay-ai-agent-studio.framer.website/">
+            <Link
+              target="_blank"
+              href="https://flowplay.ai"
+              className="font-medium text-indigo-500 dark:text-indigo-400"
+            >
+              edtech
+            </Link>
+            ,{' '}
+            <Link
+              target="_blank"
+              href="https://flowplay-ai-agent-studio.framer.website/"
+              className="font-medium text-indigo-500 dark:text-indigo-400"
+            >
               AI developer tooling
             </Link>
-            , and
-            <Link href="https://www.sellable.dev/">marketing</Link>. I was
-            cofounder and CTO at Flowplay where we raised a preseed round from
-            South Park Commons.
+            , and{' '}
+            <Link
+              target="_blank"
+              href="https://www.sellable.dev/"
+              className="font-medium text-indigo-500 dark:text-indigo-400"
+            >
+              marketing
+            </Link>
+            . I was cofounder and CTO at Flowplay where we raised a preseed
+            round from South Park Commons.
           </div>
 
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
@@ -139,6 +156,7 @@ export default function Home() {
           <div className="mt-6 text-2xl font-medium text-zinc-600 dark:text-zinc-400">
             From 2013 to 2022, I was an engineer and engineering leader at{' '}
             <Link
+              target="_blank"
               href="https://minervaproject.com"
               className="font-medium text-indigo-500 dark:text-indigo-400"
             >
@@ -146,6 +164,7 @@ export default function Home() {
             </Link>
             {' and '}
             <Link
+              target="_blank"
               href="https://minerva.edu"
               className="font-medium text-indigo-500 dark:text-indigo-400"
             >
@@ -154,6 +173,7 @@ export default function Home() {
             , where we built a brand new fully-accredited liberal arts
             university with global campuses, recognized as the{' '}
             <Link
+              target="_blank"
               href="https://www.prnewswire.com/news-releases/minerva-university-named-worlds-most-innovative-university-for-fourth-consecutive-year-302504736.html"
               className="font-medium text-indigo-500 dark:text-indigo-400"
             >

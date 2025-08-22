@@ -84,7 +84,7 @@ export default function About() {
                 where I built software and led teams building our real-time
                 multiplayer video classroom{' '}
                 <Link
-                  _target="_blank"
+                  target="_blank"
                   className="text-indigo-500 dark:text-indigo-400"
                   href="https://www.minervaproject.com/platform"
                 >
@@ -120,7 +120,7 @@ export default function About() {
                 <li>
                   <Link
                     href="https://www.youtube.com/watch?v=dSeH6mVdeXE"
-                    _target="_blank"
+                    target="_blank"
                     className="text-indigo-500 dark:text-indigo-400"
                   >
                     Converting vidoes into LOs, rubrics, lessons, and voice
@@ -130,7 +130,7 @@ export default function About() {
                 <li>
                   <Link
                     href="https://www.youtube.com/watch?v=pOwrRezaiW0"
-                    _target="_blank"
+                    target="_blank"
                     className="text-indigo-500 dark:text-indigo-400"
                   >
                     A no-code IDE for building LLM agents
@@ -143,7 +143,7 @@ export default function About() {
                 We raised $400k from{' '}
                 <Link
                   href="https://southparkcommons.com/"
-                  _target="_blank"
+                  target="_blank"
                   className="text-indigo-500 dark:text-indigo-400"
                 >
                   South Park Commons
