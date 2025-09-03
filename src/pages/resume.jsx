@@ -24,7 +24,7 @@ export default function Resume() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <Button
-                href="/static/Jason-Morrison-Resume-2025-08-20.pdf"
+                href="/static/Jason-Morrison-Resume-2025-09-03.pdf"
                 variant="indigo"
               >
                 {' '}
